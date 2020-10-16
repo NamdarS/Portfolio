@@ -19,7 +19,7 @@ a.contactButton {
     }
     a.contactButton:hover{
     color:white;
-    background-color:rgb(39, 39, 39);
+    background-color:#00274C;
 }
 @media all and (max-width:30em){
     a.contactButton{
@@ -109,10 +109,9 @@ h2 {
     padding-top: 5%;
     text-align: center;
 }
-.inner {
-    display: inline-block;
-}
 
-#divider {
-    
+#About {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: small;
+    color: black;
 }
