@@ -95,6 +95,47 @@ h2 {
     margin-top: 5em;
 }
 
+.container {
+    height: 135vh;
+    margin: 2rem;
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5% 2%;
+  }
+  .cell {   
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 25px;
+  }
+  .cell-1 {
+    background:  #00274C;
+  }
+  .cell-2 {
+    background-image: url(projectPics/Slidetimer.jpg);
+    background-size: cover;
+  }
+  .cell-3 {
+    background-image: url(projectPics/Soundboard.jpg);
+    background-size: cover;
+  }
+  .cell-4 {
+    background-image: url(projectPics/Blackjack.png);
+    background-size: contain;
+  }
+  .cell-5 {
+    background-image: url(projectPics/WhattoWear.png);
+    background-size: contain;
+  }
+  .cell-6 {
+    background-image: url(projectPics/footballMania.png);
+    background-size: cover;
+  }
+  
+
     
 
 #title {
