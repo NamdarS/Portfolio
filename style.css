@@ -110,6 +110,10 @@ h2 {
     text-align: center;
     padding: 4rem;
     border-radius: 25px;
+    transition: 1s;
+  }
+  .cell:hover{
+      transform: scale(1.1);
   }
   .cell-1 {
     background:  #00274C;
