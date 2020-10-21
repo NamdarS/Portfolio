@@ -116,25 +116,29 @@ h2 {
       transform: scale(1.1);
   }
   .cell-1 {
-    background:  #00274C;
+    background-image: url(projectPics/Roman.png);
+    background-size: cover;
   }
   .cell-2 {
-    background-image: url(projectPics/Slidetimer.jpg);
+    background-image: url(projectPics/Slidetimer.png);
     background-size: cover;
+    border: 1px solid black;
   }
   .cell-4 {
-    background-image: url(projectPics/Soundboard.jpg);
+    background-image: url(projectPics/Soundboard.png);
     background-size: cover;
+    background-color: gray;
   }
-  .cell-3 {
+  .cell-6 {
     background-image: url(projectPics/Blackjack.png);
-    background-size: contain;
+    background-size: cover;
+    background-color: azure;
   }
   .cell-5 {
     background-image: url(projectPics/WhattoWear.png);
-    background-size: contain;
+    background-size: cover;
   }
-  .cell-6 {
+  .cell-3 {
     background-image: url(projectPics/footballMania.png);
     background-size: cover;
   }
@@ -153,18 +157,17 @@ h2 {
 }.modal-footer {
     text-align: center;
 }
-
-  
+ 
 #title {
     font-family: 'Orbitron', sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
     color: black;
     text-align: center;
     margin-top: 10%;
 }
 
 #outer {
-    padding-top: 5%;
+    padding-top: 2%;
     text-align: center;
 }
 
