@@ -1,5 +1,5 @@
 body {background-color: white;}
-
+/*tester 42*/
 a.contactButton {
     display:inline-block;
     /* padding:0.35em 0.55em; */
@@ -110,7 +110,7 @@ h2 {
     text-align: center;
     padding: 4rem;
     border-radius: 25px;
-    transition: 1s;
+    transition: 0.8s;
   }
   .cell:hover{
       transform: scale(1.1);
@@ -138,6 +138,22 @@ h2 {
     background-image: url(projectPics/footballMania.png);
     background-size: cover;
   }
+
+
+.centerModalButton {
+    position: relative;
+    right: 35%;
+}
+
+.modal-header {
+    font-family: 'Orbitron', sans-serif;
+}.modal-body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}.modal-footer {
+    text-align: center;
+}
+
   
 #title {
     font-family: 'Orbitron', sans-serif;
