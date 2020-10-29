@@ -127,12 +127,12 @@ h2 {
   .cell-4 {
     background-image: url(projectPics/Soundboard.png);
     background-size: cover;
-    background-color: gray;
+    background-color: #89cff0;
   }
   .cell-6 {
     background-image: url(projectPics/Blackjack.png);
     background-size: cover;
-    background-color: azure;
+    background-color: #1c4a47;
   }
   .cell-5 {
     background-image: url(projectPics/WhattoWear.png);
@@ -148,7 +148,23 @@ h2 {
     position: relative;
     right: 35%;
 }
+.rightButton {
+    position: relative;
+    right: 25%;
+}
+.leftButton {
+    position: relative;
+    left: -24%;
+}
+.centerInButton {
+    position: relative;
+    left: -3%;
+}
 
+.centerModal {
+    position: absolute;
+    top: 20%;
+  }
 .modal-header {
     font-family: 'Orbitron', sans-serif;
 }.modal-body {
